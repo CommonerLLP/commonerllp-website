@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Commoner LLP is a public-interest community building small, source-led tools
+Commoner is a public-interest community building small, source-led tools
 and public surfaces for democratic access, public records, institutional
 accountability, and the commons.
 
