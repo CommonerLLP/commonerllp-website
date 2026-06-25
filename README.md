@@ -17,6 +17,7 @@ Open `http://localhost:8000`.
 ## Files
 
 - `index.html` - public homepage
+- `favicon.png` - site favicon, derived from the CommonerLLP GitHub avatar
 - `CNAME` - custom domain for GitHub Pages
 - `.nojekyll` - keep GitHub Pages from rewriting the site
 - `404.html` - fallback page
