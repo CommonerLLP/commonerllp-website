@@ -4,7 +4,13 @@ layout: home
 
 <img src="/favicon.png" alt="CommonerLLP logo" width="64" height="64">
 
-Public-interest research sites, libraries, and datasets.
+CommonerLLP is a public-interest research lab for humanities and social-science
+work in India. It builds small, source-led tools and static public surfaces for
+questions of democratic access, public records, institutional accountability,
+and the commons.
+
+The work is deliberately low-infrastructure: primary sources where possible,
+plain published evidence, reproducible methods, and non-commercial reuse.
 
 ## Selected repositories
 
