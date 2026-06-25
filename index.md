@@ -2,13 +2,9 @@
 layout: home
 ---
 
-CommonerLLP is a public-interest community building small, source-led tools and
+Commoner LLP is a public-interest community building small, source-led tools and
 static public surfaces for questions of democratic access, public records,
 institutional accountability, and the commons.
-
-Ambedkarite politics is baked into the work: access to knowledge, public
-institutions, and state records is treated as a question of social equality,
-not charity or service delivery.
 
 The work is deliberately low-infrastructure: primary sources where possible,
 plain published evidence, reproducible methods, and non-commercial reuse.
