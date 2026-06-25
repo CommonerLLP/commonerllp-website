@@ -2,6 +2,7 @@ title: CommonerLLP
 description: CommonerLLP public website.
 url: "https://commonerllp.org"
 theme: minima
+header_pages: []
 
 exclude:
   - Gemfile

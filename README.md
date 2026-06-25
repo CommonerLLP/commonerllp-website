@@ -21,7 +21,7 @@ Open `http://localhost:8000`.
 
 - `index.md` - public homepage
 - `_config.yml` - Jekyll site configuration
-- `_includes/custom-head.html` - favicon link for Minima
+- `_includes/head.html` - Minima head include with favicon link
 - `favicon.png` - site favicon, derived from the CommonerLLP GitHub avatar
 - `CNAME` - custom domain for GitHub Pages
 - `404.md` - fallback page
