@@ -12,8 +12,7 @@
   --site-border: rgba(29, 26, 22, 0.12);
   --site-link: #7b4a1d;
   --site-link-hover: #5a3413;
-  --site-button-bg: #1d1a16;
-  --site-button-text: #ffffff;
+  --site-control-hover: rgba(29, 26, 22, 0.08);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,8 +25,7 @@
     --site-border: rgba(243, 239, 233, 0.14);
     --site-link: #f1b37b;
     --site-link-hover: #ffd2aa;
-    --site-button-bg: #f3efe9;
-    --site-button-text: #111111;
+    --site-control-hover: rgba(243, 239, 233, 0.12);
   }
 }
 
@@ -40,8 +38,7 @@
   --site-border: rgba(29, 26, 22, 0.12);
   --site-link: #7b4a1d;
   --site-link-hover: #5a3413;
-  --site-button-bg: #1d1a16;
-  --site-button-text: #ffffff;
+  --site-control-hover: rgba(29, 26, 22, 0.08);
 }
 
 :root[data-theme="dark"] {
@@ -53,8 +50,7 @@
   --site-border: rgba(243, 239, 233, 0.14);
   --site-link: #f1b37b;
   --site-link-hover: #ffd2aa;
-  --site-button-bg: #f3efe9;
-  --site-button-text: #111111;
+  --site-control-hover: rgba(243, 239, 233, 0.12);
 }
 
 html,
@@ -116,16 +112,16 @@ a:focus {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 2rem;
+  height: 2rem;
   appearance: none;
-  border: 1px solid transparent;
+  border: 0;
   border-radius: 999px;
-  background: var(--site-button-bg);
-  color: var(--site-button-text);
+  background: transparent;
+  color: var(--site-text);
   padding: 0;
   cursor: pointer;
-  transition: transform 150ms ease, filter 150ms ease, background-color 150ms ease;
+  transition: transform 150ms ease, background-color 150ms ease;
 }
 
 .theme-toggle-icon {
@@ -154,7 +150,7 @@ a:focus {
 
 .theme-toggle:hover,
 .theme-toggle:focus-visible {
-  filter: brightness(1.05);
+  background: var(--site-control-hover);
   transform: translateY(-1px);
 }
 
