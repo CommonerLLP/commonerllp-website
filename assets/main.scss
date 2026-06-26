@@ -94,6 +94,27 @@ a:focus {
   align-items: center;
   gap: 0.75rem;
   color: var(--site-text);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-title,
+.site-title:visited,
+.site-title:hover,
+.site-title:focus {
+  color: var(--site-text);
+}
+
+.site-title span {
+  color: inherit;
+}
+
+:root[data-theme="dark"] .site-title,
+:root[data-theme="dark"] .site-title:visited,
+:root[data-theme="dark"] .site-title:hover,
+:root[data-theme="dark"] .site-title:focus {
+  color: #ffffff;
 }
 
 .site-logo {
